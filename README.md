@@ -1,6 +1,6 @@
-# _{Application Name}_
+# _Power Plant_
 
-#### _{Brief description of application}, April 14, 2020_
+#### _Application to practice functional programming concepts, April 14, 2020_
 
 #### By _**JW, TW, JA, MB**_
 
@@ -43,7 +43,9 @@ _{Let people know what to do if they run into any issues or have questions, idea
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* Webpack
+* Javascript
+* npm
 
 ### License
 
