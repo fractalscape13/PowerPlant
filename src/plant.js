@@ -23,17 +23,19 @@ const changeState = (prop) => {
   }
 }
 
-// npm install webpack-cli -g
-
-
-
 const feed = changeState("soil");
 const hydrate = changeState("water");
 const giveLight = changeState("light");
 
 const blueFood = feed(5);
-const greenFood = changeState("soil")(10);
+const greenFood = feed(10);
 const yuckyFood = feed(-5);
+
+const fullSoak = hydrate(10);
+const lightSoak = hydrate(5);
+
+const fullSun = giveLight(10);
+const partialSun = giveLight(5);
 
 
 const fedPlant = stateChanger(blueFood);
@@ -48,7 +50,6 @@ console.log("fedFern", fedFern);
 const fedRubber = rubberPlant(blueFood); 
 console.log("fedRubber", fedRubber);
 
-// const plantOne = setPlant(???)(???)("plantOne")
 
 // $(document).ready(function(){
 //   $('#feed').click(function() {
